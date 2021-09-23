@@ -386,10 +386,11 @@
       height: 5rem;
       align-items: center; }
       #main-footer .footer-content .social a {
-        text-decoration: none;}
+        text-decoration: none; }
         #main-footer .footer-content .social a .fab {
           margin-right: 1rem;
           border: 2px #fff solid;
+          color: #fff;
           border-radius: 50%;
           height: 20px;
           width: 20px;
