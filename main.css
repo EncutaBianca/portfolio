@@ -385,17 +385,19 @@
       justify-content: space-between;
       height: 5rem;
       align-items: center; }
-      #main-footer .footer-content .social .fab {
-        margin-right: 1rem;
-        border: 2px #fff solid;
-        border-radius: 50%;
-        height: 20px;
-        width: 20px;
-        line-height: 20px;
-        text-align: center;
-        padding: 0.5rem; }
-        #main-footer .footer-content .social .fab:hover {
-          background: #ffbc00; }
+      #main-footer .footer-content .social a {
+        text-decoration: none;}
+        #main-footer .footer-content .social a .fab {
+          margin-right: 1rem;
+          border: 2px #fff solid;
+          border-radius: 50%;
+          height: 20px;
+          width: 20px;
+          line-height: 20px;
+          text-align: center;
+          padding: 0.5rem; }
+          #main-footer .footer-content .social .fab:hover {
+            background: #ffbc00; }
   
   @media (max-width: 800px) {
     #header-home {
